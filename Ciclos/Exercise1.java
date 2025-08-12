@@ -17,7 +17,7 @@ public class Exercise1 {
         for (int i=1; i<=b; i++){
                 res=res+a;
         }
-        //si es negativo agregamo un signo negativo
+        //si es negativo agregamos un signo negativo
         if (((num < 0 && num2 > 0) || (num > 0 && num2 < 0))){
             System.out.println("El resultado es: " + (-res));
         }else {
